@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "훕스웨어",
+    "version": "1.0.0",
+
+    "description": "Collection of bookmarks for HUFS students",
+
+    "browser_action": {
+        "default_popup": "./popup/index.html",
+        "default_icon": "./icons/boodesk.png"
+    },
+
+    "permissions": ["activeTab"]
+
+}
